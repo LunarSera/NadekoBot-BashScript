@@ -49,20 +49,16 @@ else
 		bash linuxAIO.sh
 	else
 		if [ $choice -eq 3 ] ; then
-			echo ""
-			echo "Running Nadeko Normally, if you are running this to check Nadeko, use .die command on discord to stop Nadeko."
-			curl -L https://github.com/Kwoth/NadekoBot-BashScript/raw/master/nadeko_run.sh | sh
-			echo ""
-			echo "Welcome back to NadekoBot."
+			echo Congrats, you did absolutely nothing.
 			bash linuxAIO.sh
 		else
 
 			clear
-			echo "1. Download Dev Build (Latest)"
-			echo "2. Download Stable Build"
-			echo "3. Run Nadeko (Normally)"
+			echo "1. ...)"
+			echo "2. ..."
+			echo "3. ..."
 
-			echo -n "Choose [1 or 2] to Download, [3 or 4] to Run, or [7] to Exit."
+			echo -n "..."
 			choice=8
 		fi
 	fi
