@@ -21,8 +21,8 @@ else
 	if [ $choice -eq 2 ] ; then
 		echo ""
 		echo "Downloading PM2, please wait."
-		apt-get install -y build-essential &&
-		apt autoremove -y && 
+		sudo apt-get install -y build-essential &&
+		sudo apt autoremove -y && 
 		sudo apt-get install curl software-properties-common &&
 		sudo curl -sL https://deb.nodesource.com/setup_10.x | -E sudo bash -
 		sudo apt-get install -y nodejs && 
@@ -30,7 +30,7 @@ else
 		sudo apt-get install -y npm &&
 		sleep 10 &&
 		echo Did npm install?
-		apt-get update &&
+		sudo apt-get update &&
 		echo npm version:
 		npm --version
 		echo Should be 6.9.0 or newer &&
