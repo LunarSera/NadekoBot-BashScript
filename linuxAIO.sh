@@ -39,7 +39,7 @@ else
 		npm install pm2 -g &&
 		apt install python3.7 python3.7-dev python3.7-venv python3-pip build-essential \
 		libssl-dev libffi-dev git unzip default-jre -y &&
-		sudo curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash &&
+		curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash &&
 		echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc &&
 		echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc &&
 		echo 'eval "$(pyenv init -)"' >> ~/.bashrc &&
