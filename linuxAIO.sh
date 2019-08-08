@@ -58,15 +58,15 @@ else
 				source /home/red/bin/activate
 				python3.7 -m pip install -U Red-DiscordBot
 				redbot-setup
-					else
+			else
 
-						clear
-						echo "1. ...)"
-						echo "2. ..."
-						echo "3. ..."
+				clear
+				echo "1. ...)"
+				echo "2. ..."
+				echo "3. ..."
 
-						echo -n "..."
-						choice=8
+				echo -n "..."
+				choice=8
 			fi
 		fi
 	fi
