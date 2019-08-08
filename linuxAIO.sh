@@ -46,7 +46,7 @@ else
 		exec bash
 		echo ""
 		echo "PM2 and pyvenv installed."
-		bash linuxAIO.sh
+		sudo bash linuxAIO.sh
 	else
 		if [ $choice -eq 3 ] ; then
 			CONFIGURE_OPTS=--enable-optimizations pyenv install 3.7.2 -v
