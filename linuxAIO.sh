@@ -23,11 +23,11 @@ else
 		echo "Downloading PM2, please wait."
 		apt-get install -y build-essential &&
 		apt autoremove -y && 
-		apt-get install curl software-properties-common &&
-		curl -sL https://deb.nodesource.com/setup_10.x | -E bash -
-		apt-get install -y nodejs && 
-		curl -sL https://deb.nodesource.com/setup_10.x | -E bash - 
-		apt-get install -y npm &&
+		sudo apt-get install curl software-properties-common &&
+		sudo curl -sL https://deb.nodesource.com/setup_10.x | -E sudo bash -
+		sudo apt-get install -y nodejs && 
+		sudo curl -sL https://deb.nodesource.com/setup_10.x | -E sudo bash - 
+		sudo apt-get install -y npm &&
 		sleep 10 &&
 		echo Did npm install?
 		apt-get update &&
