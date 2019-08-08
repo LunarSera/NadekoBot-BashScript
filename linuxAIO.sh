@@ -6,8 +6,9 @@ choice=4
 	echo "1. Launch Red in PM2 (Only run this once or you will have more than one instance of the bot running.)"
 	echo "2. Install npm and Pyvenv"
 	echo "3. Optimize Python for Red. (Only run once.)"
+	echo "4. Install The bot itself."
 	echo -n "Description of launcher."
-while [ $choice -eq 4 ]; do
+while [ $choice -eq 5 ]; do
 read choice
 if [ $choice -eq 1 ] ; then
 
