@@ -49,8 +49,8 @@ else
 		bash linuxAIO.sh
 	else
 		if [ $choice -eq 3 ] ; then
-			echo Congrats, you did absolutely nothing.
-			bash linuxAIO.sh
+			CONFIGURE_OPTS=--enable-optimizations pyenv install 3.7.2 -v
+			echo Optimized.
 		else
 
 			clear
