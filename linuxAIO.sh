@@ -2,7 +2,7 @@
 echo ""
 echo "Welcome to Red Installer."
 
-choice=4
+choice=5
 	echo "1. Launch Red in PM2 (Only run this once or you will have more than one instance of the bot running.)"
 	echo "2. Install npm and Pyvenv"
 	echo "3. Optimize Python for Red. (Only run once.)"
